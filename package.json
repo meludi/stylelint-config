@@ -7,8 +7,6 @@
   "keywords": [
     "stylelint",
     "stylelint-config",
-    "prettier",
-    "prettier-config",
     "postcss",
     "postcss-config"
   ],

@@ -1,0 +1,20 @@
+{
+  // scss
+  "[scss]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["css", "scss", "less", "postcss", "vue"],
+  // editor
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // stylelint
+    "source.fixAll.stylelint": true
+  }
+}

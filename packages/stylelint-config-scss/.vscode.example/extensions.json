@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    // Prettier - Integrates Prettier into VS Code.
+    // https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    "esbenp.prettier-vscode",
+    // stylelint - Modern CSS/SCSS/Less linter
+    // https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
+    "stylelint.vscode-stylelint"
+  ]
+}

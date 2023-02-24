@@ -1,0 +1,75 @@
+{
+  "name": "@meludi/stylelint-config-scss",
+  "version": "0.1.0",
+  "description": "Shareable configuration for stylelint",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "postcss",
+    "postcss-config"
+  ],
+  "author": {
+    "email": "milad@al-ani.de",
+    "name": "Milad Al-Ani"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./stylelint.config": "./stylelint.config.js",
+    "./postcss.config": "./postcss.config.js"
+  },
+  "files": [
+    "index.js",
+    "stylelint.config.js",
+    "postcss.config.js"
+  ],
+  "scripts": {
+    "precommit": "lint-staged",
+    "lint": "eslint . --max-warnings 0",
+    "test": "echo \"OK\" && exit 0"
+  },
+  "dependencies": {
+    "@meludi/eslint-config-prettier": "^0.1.2",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.14",
+    "postcss-html": "^1.0.0",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^7.4.1",
+    "stylelint-config-idiomatic-css": "^1.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-prettier": "^2.0.0"
+  },
+  "peerDependencies": {
+    "prettier": ">= 2",
+    "stylelint": ">= 14"
+  },
+  "peerDependenciesMeta": {
+    "prettier": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3",
+    "stylelint": "^14.5.2"
+  },
+  "engines": {
+    "node": "^16.x || ^18.x"
+  },
+  "bugs": {
+    "url": "https://github.com/meludi/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/meludi/stylelint-config/tree/main/packages/stylelint-config-scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meludi/stylelint-config"
+  }
+}
