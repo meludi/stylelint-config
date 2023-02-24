@@ -1,0 +1,60 @@
+{
+  "name": "@meludi/stylelint-config",
+  "version": "0.1.0",
+  "description": "Shareable configuration for stylelint",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "prettier",
+    "prettier-config",
+    "postcss",
+    "postcss-config"
+  ],
+  "author": {
+    "email": "milad@al-ani.de",
+    "name": "Milad Al-Ani"
+  },
+  "scripts": {
+    "prepare": "is-ci || husky install",
+    "preinstall": "npx only-allow pnpm",
+    "pre-commit": "lerna run precommit --concurrency 1 --stream",
+    "format": "prettier --ignore-path='.prettierignore' --list-different --write .",
+    "commitlint": "commitlint --edit $1",
+    "commit": "git cz",
+    "test": "lerna run test --stream",
+    "lint": "lerna run lint --concurrency 1 --stream",
+    "lerna:version": "lerna version --no-private --no-push",
+    "lerna:publish": "lerna publish from-package"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@meludi/eslint-config-base": "^0.1.2",
+    "@meludi/eslint-config-prettier": "^0.1.2",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.32.0",
+    "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
+    "lerna": "^6.4.1",
+    "prettier": "^2.8.3"
+  },
+  "engines": {
+    "node": "^16.x || ^18.x"
+  },
+  "bugs": {
+    "url": "https://github.com/meludi/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/meludi/stylelint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meludi/stylelint-config"
+  }
+}
