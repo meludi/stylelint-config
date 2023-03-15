@@ -26,6 +26,9 @@
     "stylelint.config.js",
     "postcss.config.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "precommit": "lint-staged",
     "lint": "eslint . --max-warnings 0",
