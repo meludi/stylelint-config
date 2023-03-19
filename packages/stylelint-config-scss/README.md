@@ -84,9 +84,12 @@ Add the following script to your `package.json` for easy usage:
 "scripts": {
   "lint:css": "stylelint './**/*.scss'",
   "lint:css:fix": "npm run lint:css -- --fix",
-  "format": "prettier --write './**/*.{scss,md,json}'"
 }
 ```
+
+### Recommendation
+
+Use prettier to format format your scss files: [@meludi/eslint-config-prettier](https://www.npmjs.com/package/@meludi/eslint-config-prettier)
 
 ### Configuration
 

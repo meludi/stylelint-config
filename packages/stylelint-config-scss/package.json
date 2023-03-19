@@ -34,8 +34,10 @@
     "lint": "eslint . --max-warnings 0",
     "test": "echo \"OK\" && exit 0"
   },
+  "lint-staged": {
+    "*.js": "npm run lint"
+  },
   "dependencies": {
-    "@meludi/eslint-config-prettier": "^0.1.2",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.14",
     "postcss-html": "^1.0.0",
@@ -48,18 +50,11 @@
     "stylelint-prettier": "^2.0.0"
   },
   "peerDependencies": {
-    "prettier": ">= 2",
     "stylelint": ">= 14 < 15"
-  },
-  "peerDependenciesMeta": {
-    "prettier": {
-      "optional": true
-    }
   },
   "devDependencies": {
     "eslint": "^8.32.0",
     "lint-staged": "^13.1.0",
-    "prettier": "^2.8.3",
     "stylelint": "^14.16.1"
   },
   "engines": {
