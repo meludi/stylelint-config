@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/meludi/stylelint-config/compare/@meludi/stylelint-config-scss@0.2.1...@meludi/stylelint-config-scss@0.2.2) (2023-03-19)
+
+### Bug Fixes
+
+- **stylelint-config-scss:** decouple prettier as dependency ([e1102a7](https://github.com/meludi/stylelint-config/commit/e1102a749818014781003d331e6396142b5f9383))
+
 ## [0.2.1](https://github.com/meludi/stylelint-config/compare/@meludi/stylelint-config-scss@0.2.0...@meludi/stylelint-config-scss@0.2.1) (2023-03-15)
 
 ### Bug Fixes
