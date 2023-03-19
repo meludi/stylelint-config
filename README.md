@@ -33,3 +33,19 @@ We actually publish [several packages](/packages) to npm from the same codebase,
 [stylelint-config-scss-npm-link]: https://www.npmjs.com/package/@meludi/stylelint-config-scss
 [stylelint-config-scss-issues-badge]: https://img.shields.io/github/issues/meludi/stylelint-config/package:%20stylelint-config-scss?label=issues
 [stylelint-config-scss-issues-link]: https://github.com/meludi/stylelint-config/issues?q=is%3Aopen+is%3Aissue+label%3A%22package%3A+stylelint-config-scss%22
+
+## Development
+### Versioning and publishing
+```sh
+# Login to npm registry with your credentials
+# This operation requires a one-time password
+$ npm login
+
+# Versioning
+# Remember to push new version tags and main to the repo!
+$ pnpm lerna:version
+
+# Publishing
+# This operation requires a one-time password
+$ pnpm lerna:publish
+```
