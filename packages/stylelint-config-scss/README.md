@@ -1,13 +1,15 @@
 # @meludi/stylelint-config-scss
 
+[![NPM Package][stylelint-config-scss-npm-badge]][stylelint-config-scss-npm-link]
+[![GitHub issues][stylelint-config-scss-issues-badge]][stylelint-config-scss-issues-link]
+[![GitHub license][stylelint-config-license-badge]][stylelint-config-license-link]
+
 This package provides [Stylelint](https://stylelint.io/) settings as an shareable stylelint configuration.
 
 ## Configs
 
-- [stylelint-config-standard](https://www.npmjs.com/package/stylelint-config-standard)
 - [stylelint-config-standard-scss](https://www.npmjs.com/package/stylelint-config-recommended-scss)
 - [stylelint-order](https://www.npmjs.com/package/stylelint-order)
-- [stylelint-config-recommended-vue](https://www.npmjs.com/package/stylelint-config-recommended-vue)
 - [stylelint-config-idiomatic-css](https://www.npmjs.com/package/stylelint-config-idiomatic-css)
 - [stylelint-config-prettier](https://www.npmjs.com/package/stylelint-config-idiomatic-css)
 
@@ -99,3 +101,10 @@ Copy [.vscode.example](https://github.com/meludi/stylelint-config/tree/master/pa
 ## LICENSE
 
 [MIT](LICENSE)
+
+[stylelint-config-scss-npm-badge]: https://img.shields.io/npm/v/@meludi/stylelint-config-scss.svg
+[stylelint-config-scss-npm-link]: https://www.npmjs.com/package/@meludi/stylelint-config-scss
+[stylelint-config-scss-issues-badge]: https://img.shields.io/github/issues/meludi/stylelint-config/package:%20stylelint-config-scss?label=issues
+[stylelint-config-scss-issues-link]: https://github.com/meludi/stylelint-config/issues?q=is%3Aopen+is%3Aissue+label%3A%22package%3A+stylelint-config-scss%22
+[stylelint-config-license-badge]: https://img.shields.io/github/license/meludi/stylelint-config
+[stylelint-config-license-link]: https://github.com/meludi/stylelint-config/blob/main/LICENSE
