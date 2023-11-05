@@ -17,19 +17,57 @@ We actually publish [several packages](/packages) to npm from the same codebase,
 | [@meludi/stylelint-config-scss][stylelint-config-scss-package] | [![NPM Package][stylelint-config-scss-npm-badge]][stylelint-config-scss-npm-link] | [![][doc-badge]][stylelint-config-scss-doc-link] | [![GitHub issues][stylelint-config-scss-issues-badge]][stylelint-config-scss-issues-link] | Format and lint your SCSS code. |
 
 ## Development
-### Versioning and publishing
+
+### Committing, versioning and publishing
+
 ```sh
+# Commit with conventional commits
+# https://www.conventionalcommits.org/en/v1.0.0/
+$ npm run commit
+
 # Login to npm registry with your credentials
 # This operation requires a one-time password
 $ npm login
 
 # Versioning
-# Remember to push new version tags and main to the repo!
-$ pnpm lerna:version
+# Remember to push new versioned tags and main branch to the repo!
+$ npm run lerna:version
 
-# Publishing
+# Publishing to npm registry
 # This operation requires a one-time password
-$ pnpm lerna:publish
+$ npm run lerna:publish
+```
+
+### Local testing with [verdaccio - local npm registry](https://verdaccio.org/)
+
+```sh
+# install
+$ npm install --location=global verdaccio
+
+# run
+$ verdaccio
+
+# verdaccio server
+http://localhost:4873/
+
+# verdaccio storage directory on mac
+~/.config/verdaccio/storage/
+```
+
+```sh
+# see https://github.com/lerna/lerna/issues/2363
+
+# puts all packages on the local registry without changing tags (bumps versions by default but that can be undone with a hard git reset)
+$ npm run lerna:verdaccio:publish
+
+# optionally passing a version number if all packages are intended to be locally published to the same version, e.g.
+$ npm run lerna:verdaccio:publish 0.0.1
+
+# removes the latest version of each package from the local registry
+$ npm run lerna:verdaccio:unpublish
+
+# removes all packages on the local registry in case something went wrong
+$ npm run lerna:verdaccio:unpublish:all
 ```
 
 ## LICENSE

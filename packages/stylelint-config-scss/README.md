@@ -89,7 +89,7 @@ Add the following script to your `package.json` for easy usage:
 
 ### Recommendation
 
-Use prettier to format format your scss files: [@meludi/eslint-config-prettier](https://www.npmjs.com/package/@meludi/eslint-config-prettier)
+Use prettier to format your scss files: [@meludi/eslint-config-prettier](https://www.npmjs.com/package/@meludi/eslint-config-prettier)
 
 ### Configuration
 

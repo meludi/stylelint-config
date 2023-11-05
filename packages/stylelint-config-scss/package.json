@@ -30,7 +30,6 @@
     "access": "public"
   },
   "scripts": {
-    "precommit": "lint-staged",
     "lint": "eslint . --max-warnings 0",
     "test": "echo \"OK\" && exit 0"
   },
@@ -51,11 +50,6 @@
   },
   "peerDependencies": {
     "stylelint": ">= 14 < 15"
-  },
-  "devDependencies": {
-    "eslint": "^8.32.0",
-    "lint-staged": "^13.1.0",
-    "stylelint": "^14.16.1"
   },
   "engines": {
     "node": "^16.x || ^18.x"
