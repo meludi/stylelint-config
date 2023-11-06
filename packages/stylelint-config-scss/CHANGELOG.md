@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/meludi/stylelint-config/compare/@meludi/stylelint-config-scss@0.2.2...@meludi/stylelint-config-scss@0.3.0) (2023-11-06)
+
+### Code Refactoring
+
+- update stylelint to v15. update config to prettier v3 ([117a893](https://github.com/meludi/stylelint-config/commit/117a8934ebf92fba673b4a72148cf57c885e8fcc))
+
+### BREAKING CHANGES
+
+- Now using stylelint v15 and prettier v3.
+
 ## [0.2.2](https://github.com/meludi/stylelint-config/compare/@meludi/stylelint-config-scss@0.2.1...@meludi/stylelint-config-scss@0.2.2) (2023-03-19)
 
 ### Bug Fixes

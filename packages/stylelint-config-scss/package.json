@@ -1,6 +1,6 @@
 {
   "name": "@meludi/stylelint-config-scss",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Shareable configuration for stylelint",
   "private": false,
   "license": "MIT",
@@ -48,8 +48,8 @@
     "stylelint-prettier": "^4.0.0"
   },
   "peerDependencies": {
-    "stylelint": ">= 15",
-    "prettier": ">= 3"
+    "prettier": ">= 3",
+    "stylelint": ">= 15"
   },
   "engines": {
     "node": "^16.x || ^18.x"
