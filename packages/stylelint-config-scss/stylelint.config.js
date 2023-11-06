@@ -32,11 +32,6 @@ module.exports = {
   plugins: ['stylelint-order'],
 
   rules: {
-    'declaration-colon-space-after': 'always',
-    'declaration-block-trailing-semicolon': 'always',
-    'declaration-block-semicolon-newline-after': 'always',
-    'at-rule-semicolon-newline-after': 'always',
-    'no-extra-semicolons': true,
     'at-rule-no-unknown': [
       true,
       {

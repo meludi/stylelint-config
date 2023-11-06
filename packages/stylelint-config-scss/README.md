@@ -11,7 +11,7 @@ This package provides [Stylelint](https://stylelint.io/) settings as an shareabl
 - [stylelint-config-standard-scss](https://www.npmjs.com/package/stylelint-config-recommended-scss)
 - [stylelint-order](https://www.npmjs.com/package/stylelint-order)
 - [stylelint-config-idiomatic-css](https://www.npmjs.com/package/stylelint-config-idiomatic-css)
-- [stylelint-config-prettier](https://www.npmjs.com/package/stylelint-config-idiomatic-css)
+- [stylelint-prettier](https://www.npmjs.com/package/stylelint-prettier)
 
 ## [Postcss](https://postcss.org/)
 
@@ -59,22 +59,6 @@ Add the following config files to the root of your project:
 - [.browserslistrc](https://github.com/browserslist/browserslist) see Posstcss - autoprefixer
 - [.stylelintignore](https://eslint.org/docs/latest/use/configure/ignore#the-eslintignore-file)
 - [.editorconfig](https://editorconfig.org/)
-
-```sh
-# .editorconfig: http://EditorConfig.org
-root = true
-
-[*]
-indent_style = space
-indent_size = 2
-end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
-
-[*.md]
-trim_trailing_whitespace = false
-```
 
 ### NPM script
 
